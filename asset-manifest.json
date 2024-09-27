@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ws101_react_landingpage/static/css/main.de27832a.css",
+    "main.js": "/ws101_react_landingpage/static/js/main.e2d90ee7.js",
+    "static/media/img6.png": "/ws101_react_landingpage/static/media/img6.c82b11b48cba863ada3a.png",
+    "static/media/img1.png": "/ws101_react_landingpage/static/media/img1.22e8a3492c2830e2fd37.png",
+    "static/media/logo.png": "/ws101_react_landingpage/static/media/logo.d10085880ca07c74571f.png",
+    "static/media/img5.png": "/ws101_react_landingpage/static/media/img5.1c50a27abb3842bc4396.png",
+    "static/media/img4.png": "/ws101_react_landingpage/static/media/img4.1702c45ac92926955561.png",
+    "static/media/img2.png": "/ws101_react_landingpage/static/media/img2.bc75ccc78e3bf74f8aed.png",
+    "static/media/bg.jpg": "/ws101_react_landingpage/static/media/bg.fca235d0af8d4d72384a.jpg",
+    "static/media/img3.png": "/ws101_react_landingpage/static/media/img3.266bd9fb2663dcc057b4.png",
+    "index.html": "/ws101_react_landingpage/index.html",
+    "main.de27832a.css.map": "/ws101_react_landingpage/static/css/main.de27832a.css.map",
+    "main.e2d90ee7.js.map": "/ws101_react_landingpage/static/js/main.e2d90ee7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de27832a.css",
+    "static/js/main.e2d90ee7.js"
+  ]
+}
