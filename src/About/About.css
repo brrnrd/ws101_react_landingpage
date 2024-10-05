@@ -1,0 +1,17 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  h2 {
+    color: #6F4F28;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 1rem;
+  }
+  

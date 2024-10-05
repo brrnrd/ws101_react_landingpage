@@ -1,0 +1,35 @@
+#hero {
+    color: #453522;
+    padding: 6rem 2rem;
+    text-align: center;
+  }
+  
+  .title h1 {
+    font-size: 4rem;
+    font-family: 'Garamond', serif;
+    color: #3D2B1F;
+    margin: 0;
+  }
+  
+  .title p {
+    font-size: 1.5rem;
+    font-family: 'Arial', sans-serif;
+    margin: 1rem 0;
+  }
+  
+  button {
+    background-color: #8B5E3C;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 1.5rem;
+  }
+  
+  button:hover {
+    background-color: #6F4F28;
+  }
+  

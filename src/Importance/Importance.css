@@ -1,0 +1,82 @@
+/* Importance.css */
+
+#importance {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .importance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .importance-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .importance-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .importance-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .importance-box h3 {
+    font-size: 1.8em;
+    color: #444;
+    margin-top: 15px;
+  }
+  
+  .importance-box p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .importance-box h3 {
+      font-size: 1.5em;
+    }
+    
+    .importance-box p {
+      font-size: 0.95em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 2em;
+    }
+  
+    .importance-box h3 {
+      font-size: 1.3em;
+    }
+  
+    .importance-box p {
+      font-size: 0.9em;
+    }
+  }
+  

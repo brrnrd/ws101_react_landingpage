@@ -1,22 +1,21 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import About from './components/About/About';
-import More from './components/More/More';
-import Footer from './components/Footer/Footer';
-import background from './images/bg.jpg'; 
+import Navbar from './Navbar/Navbar';
+import Hero from './Hero/Hero';
+import About from './About/About';
+import Importance from './Importance/Importance';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
-const App = () => {
+function App() {
   return (
-    <div className="App" style={{ backgroundImage: `url(${background})` }}>
+    <div className="App">
       <Navbar />
       <Hero />
       <About />
-      <More />
+      <Importance/>
+      <Contact />
       <Footer />
     </div>
   );
-};
+}
 
 export default App;
